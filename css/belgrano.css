@@ -1,0 +1,688 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#escritorio {
+    display: none;
+}
+
+#construccion {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+}
+
+
+.social {
+    position: fixed;
+    /* Hacemos que la posición en pantalla sea fija para que siempre se muestre en pantalla*/
+    left: 0;
+    /* Establecemos la barra en la izquierda */
+    top: 50%;
+    /* Bajamos la barra 200px de arriba a abajo */
+    z-index: 2000;
+    /* Utilizamos la propiedad z-index para que no se superponga algún otro elemento como sliders, galerías, etc */
+}
+
+.social ul {
+    list-style: none;
+}
+
+.social ul li a {
+    display: inline-block;
+    color: #fff;
+    background: #000;
+    padding: 10px 15px;
+    text-decoration: none;
+    -webkit-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+    /* Establecemos una transición a todas las propiedades */
+}
+
+.social ul li .icon-facebook {
+    background: #3b5998;
+}
+
+/* Establecemos los colores de cada red social, aprovechando su class */
+.social ul li .icon-twitter {
+    background: #00abf0;
+}
+
+.social ul li .icon-instagram {
+    background: #E1306C;
+}
+
+.social ul li .icon-pinterest {
+    background: #ae181f;
+}
+
+.social ul li .icon-mail2 {
+    background: #666666;
+}
+
+.social ul li a:hover {
+    background: #000;
+    /* Cambiamos el fondo cuando el usuario pase el mouse */
+    padding: 10px 30px;
+    /* Hacemos mas grande el espacio cuando el usuario pase el mouse */
+}
+
+.social {
+    position: fixed;
+    /* Hacemos que la posición en pantalla sea fija para que siempre se muestre en pantalla*/
+    left: 0;
+    /* Establecemos la barra en la izquierda */
+    top: 75%;
+    /* Bajamos la barra 200px de arriba a abajo */
+    z-index: 2000;
+    /* Utilizamos la propiedad z-index para que no se superponga algún otro elemento como sliders, galerías, etc */
+}
+
+.social ul {
+    list-style: none;
+    padding: 0;
+}
+
+.social ul li a {
+    display: inline-block;
+    color: #fff;
+    background: #000;
+    padding: 10px 15px;
+    text-decoration: none;
+    -webkit-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+    /* Establecemos una transición a todas las propiedades */
+}
+
+.social ul li .icon-facebook {
+    background: #3b5998;
+}
+
+/* Establecemos los colores de cada red social, aprovechando su class */
+.social ul li .icon-twitter {
+    background: #00abf0;
+}
+
+.social ul li .icon-googleplus {
+    background: #d95232;
+}
+
+.social ul li .icon-pinterest {
+    background: #ae181f;
+}
+
+.social ul li .icon-mail {
+    background: #666666;
+}
+
+.social ul li a:hover {
+    background: #000;
+    /* Cambiamos el fondo cuando el usuario pase el mouse */
+    padding: 10px 30px;
+    /* Hacemos mas grande el espacio cuando el usuario pase el mouse */
+}
+
+ul {
+    list-style: none;
+}
+
+nav#barraMenu {
+    background-color: white;
+
+}
+
+div#portada1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/kinesio.jpg);
+    /* Set a specific height */
+    min-height: 45vh;
+    /* Create the parallax scrolling effect */
+    /* background-attachment: fixed; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div#portada2 {
+    margin-top: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/estetica.jpg);
+    /* Set a specific height */
+    min-height: 45vh;
+    /* Create the parallax scrolling effect */
+    /* background-attachment: fixed; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tituloIndex {
+    color: white;
+    font-weight: bold;
+    font-size: 2.5rem;
+    text-shadow: 2px 2px 2px black;
+    transition: all 300ms;
+}
+
+div#listaMedica {
+    margin: 15% 0 15% 0;
+}
+
+div.dropdown-menu.show {
+    border: 0;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(0, 0, 0);
+}
+
+a#logo {
+    width: 50%;
+}
+
+a#logo img {
+    width: 90%;
+}
+
+div#carousel {
+    margin-top: 15%;
+}
+
+div.card {
+    width: 100%;
+}
+
+div#jornadas {
+    border: 0;
+}
+
+div#jornadas img {
+    border-radius: 50%;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+div#quienes {
+    background-color: rgba(0, 100, 150, 0.5);
+}
+
+iframe#virtual {
+    width: 100%;
+    height: 85vh;
+}
+
+iframe#mapa {
+    height: 50vh;
+}
+
+span.display-3 {
+    font-weight: 300;
+    margin: -10% 0 -10% 0;
+}
+
+div#faqs {
+    padding-top: 5%;
+}
+
+div#contacto {
+    width: 70%;
+}
+
+img.logoredes {
+    width: 5%;
+}
+
+
+footer {
+    width: 100%;
+    background-color: rgb(80, 80, 80);
+    color: white;
+}
+
+span#empresas {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.grid-layout {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    grid-gap: 10px;
+    grid-auto-rows: minmax(180px, auto);
+    grid-auto-flow: dense;
+
+
+}
+
+#kine1 {
+    background-image: url('../img/12.jpg');
+    background-size: cover;
+    background-position: top;
+}
+
+#kine2 {
+    display: none;
+    background-image: url('../img/13.jpg');
+    background-size: cover;
+    background-position: top;
+}
+
+#kine3 {
+    background-image: url('../img/8.jpg');
+    background-size: cover;
+    background-position: top;
+}
+
+.grid-item {
+    padding: 1rem;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: black;
+    background-color: #00acf060;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+}
+
+.span-2 {
+    height: 70vh;
+    grid-column-end: span 2;
+    grid-row-end: span 2;
+}
+
+.span-3 {
+    grid-column-end: span 3;
+    grid-row-end: span 4;
+}
+
+#whatsapp {
+    position: fixed;
+    top: 85%;
+    left: 80%;
+}
+
+#whatsapp img {
+    transition: all 0.5s;
+    width: 65%;
+}
+
+#whatsapp img:hover {
+    transform: scale(1.25);
+}
+
+#whatsapp img:active {
+    transform: scale(0.80);
+}
+
+#mareaFooter {
+    width: 40%;
+}
+
+#img360 {
+    width: 50%;
+}
+
+#promoEscritorio {
+    display: none;
+}
+
+#promoMobile {
+    margin-bottom: 5%;
+}
+
+
+/*********************************************************************/
+@media(min-width: 1000px) {
+    #escritorio {
+        display: initial;
+    }
+
+    #mobile {
+        display: none;
+    }
+
+    div#portada1 {
+        display: flex;
+        justify-content: center;
+        background-image: url(../img/kinesio.jpg);
+        /* Set a specific height */
+        min-height: 80vh;
+        /* Create the parallax scrolling effect */
+        /* background-attachment: fixed; */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 1rem;
+        box-shadow: 2px 2px 5px gray;
+    }
+
+    div#portada2 {
+        margin-top: 0;
+        display: flex;
+        justify-content: center;
+        background-image: url(../img/estetica.jpg);
+        /* Set a specific height */
+        min-height: 80vh;
+        /* Create the parallax scrolling effect */
+        /* background-attachment: fixed; */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 1rem;
+        box-shadow: 2px 2px 5px gray;
+    }
+
+    div#portadas {
+        margin-right: auto;
+        margin-left: auto;
+        width: 95%;
+    }
+
+    li.nav-item {
+        text-align: center;
+
+        font-size: 0.9rem;
+    }
+
+    ul#redes {
+        padding: 0;
+    }
+
+    .logo {
+        width: 45%;
+        line-height: 50%;
+    }
+
+    .content {
+        padding: 16px;
+    }
+
+    .sticky {
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+
+    .sticky+.content {
+        padding-top: 60px;
+    }
+
+    a#logo {
+        width: 30%;
+    }
+
+    a#logo img {
+        width: 55%;
+    }
+
+    nav#barraMenu {
+        background-color: white;
+
+    }
+
+
+    div#faqs {
+        padding-top: 5%;
+    }
+
+    div#carousel {
+        margin-top: 0%;
+    }
+
+    .social {
+        position: fixed;
+        /* Hacemos que la posición en pantalla sea fija para que siempre se muestre en pantalla*/
+        left: 0;
+        /* Establecemos la barra en la izquierda */
+        top: 45%;
+        /* Bajamos la barra 200px de arriba a abajo */
+        z-index: 2000;
+        /* Utilizamos la propiedad z-index para que no se superponga algún otro elemento como sliders, galerías, etc */
+    }
+
+    .social ul {
+        list-style: none;
+    }
+
+    .social ul li a {
+        display: inline-block;
+        color: #fff;
+        background: #000;
+        padding: 10px 15px;
+        text-decoration: none;
+        -webkit-transition: all 500ms ease;
+        -o-transition: all 500ms ease;
+        transition: all 500ms ease;
+        /* Establecemos una transición a todas las propiedades */
+    }
+
+    .social ul li .icon-facebook {
+        background: #3b5998;
+    }
+
+    /* Establecemos los colores de cada red social, aprovechando su class */
+    .social ul li .icon-twitter {
+        background: #00abf0;
+    }
+
+    .social ul li .icon-instagram {
+        background: #E1306C;
+    }
+
+    .social ul li .icon-pinterest {
+        background: #ae181f;
+    }
+
+    .social ul li .icon-mail2 {
+        background: #666666;
+    }
+
+    .social ul li a:hover {
+        background: #000;
+        /* Cambiamos el fondo cuando el usuario pase el mouse */
+        padding: 10px 30px;
+        /* Hacemos mas grande el espacio cuando el usuario pase el mouse */
+    }
+
+    .social {
+        position: fixed;
+        /* Hacemos que la posición en pantalla sea fija para que siempre se muestre en pantalla*/
+        left: 0;
+        /* Establecemos la barra en la izquierda */
+        top: 50%;
+        /* Bajamos la barra 200px de arriba a abajo */
+        z-index: 2000;
+        /* Utilizamos la propiedad z-index para que no se superponga algún otro elemento como sliders, galerías, etc */
+    }
+
+    .social ul {
+        list-style: none;
+    }
+
+    .social ul li a {
+        display: inline-block;
+        color: #fff;
+        background: #000;
+        padding: 10px 15px;
+        text-decoration: none;
+        -webkit-transition: all 500ms ease;
+        -o-transition: all 500ms ease;
+        transition: all 500ms ease;
+        /* Establecemos una transición a todas las propiedades */
+    }
+
+    .social ul li .icon-facebook {
+        background: #3b5998;
+    }
+
+    /* Establecemos los colores de cada red social, aprovechando su class */
+    .social ul li .icon-twitter {
+        background: #00abf0;
+    }
+
+    .social ul li .icon-googleplus {
+        background: #d95232;
+    }
+
+    .social ul li .icon-pinterest {
+        background: #ae181f;
+    }
+
+    .social ul li .icon-mail {
+        background: #666666;
+    }
+
+    .social ul li a:hover {
+        background: #000;
+        /* Cambiamos el fondo cuando el usuario pase el mouse */
+        padding: 10px 30px;
+        /* Hacemos mas grande el espacio cuando el usuario pase el mouse */
+    }
+
+    #gif {
+        width: 50%;
+        height: 50vh;
+    }
+
+    div.card.mb-3 {
+        border: none;
+    }
+
+    .tituloIndex {
+        font-size: 4rem;
+    }
+
+    img.card-img {
+        height: 100%;
+    }
+
+    #whatsapp {
+        position: fixed;
+        top: 90%;
+        left: 93%;
+    }
+
+    #whatsapp img {
+        transition: all 0.5s;
+        width: 45%;
+    }
+
+    #whatsapp img:hover {
+        transform: scale(1.25);
+    }
+
+    #whatsapp img:active {
+        transform: scale(0.80);
+    }
+
+    div#medicas {
+        display: flex;
+        align-items: center;
+    }
+
+    ul#ulFooter {
+        padding-top: 2%;
+        padding-inline-start: 0!important;
+        font-size: 0.9em;
+    }
+
+    #mareaFooter {
+        padding: 1%;
+        width: 15%;
+        transition: .2s ease;
+    }
+
+    #mareaFooter:hover {
+        filter: invert(0.9);
+
+    }
+
+    div.modal-dialog.modal-lg {
+        max-width: 95%;
+    }
+
+    #img360 {
+        width: 20%;
+    }
+
+    a.linkPortada {
+        transition: all 300ms;
+    }
+
+    #portada1:hover .tituloIndex {
+        transform: scale(1.2);
+    }
+
+    #portada2:hover .tituloIndex {
+        transform: scale(1.2);
+    }
+
+    a.linkPortada:hover {
+        text-decoration: none;
+    }
+
+    #kine2 {
+        display: block;
+    }
+
+    .list-group {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 110vh;
+    }
+
+    td.align-middle {
+        width: 33%;
+    }
+
+    #panel {
+        width: 60%;
+    }
+
+    #panel input {
+        margin-top: 1%;
+        margin-bottom: 1%;
+    }
+
+    #promoMobile {
+        display: none;
+    }
+
+    #promoEscritorio {
+        text-align: center;
+        display: block;
+        margin-bottom: 7%;
+    }
+
+    #pcard {
+        height: 8vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #navbarSupportedContent {
+        justify-content: flex-end;
+    }
+}
